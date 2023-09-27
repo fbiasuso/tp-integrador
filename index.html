@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tp Integrador</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar">   
+        <div class="logo">
+            <img class="logo__img" src="./img/codoacodo.png" alt="">
+            <h1 class="logo__title">Conf Bs</h1>
+        </div>
+        <ul class="navbar__menu">
+            <li>La conferencia</li>
+            <li>Los oradores</li>
+            <li>El lugar y la fecha</li>
+            <li>Conviertete en orador</li>
+            <li class="navbar__tickets">Comprar tickets</li>
+        </ul>
+    </nav>
+    <article class="carrousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/ba1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>Conf Bs As</h5>
+                  <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia  de los expertos que están creando el futuro de internet. Vení a conocer a miembros del evento, a otros esudiantes de Codo a Codo y los oradores de  primer nivel que tenemos para vos. ¡Te esperamos!</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/ba2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/ba3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </article>
+    </header>
+    <section id="speakers" class="container pt-4">
+        
+        <div class="row text-center">
+            <div class="col"><h3 class="fs-6">CONOCÉ A LOS</h3></div>
+        </div>
+        <div class="row text-center">
+            <div class="col"><h2>ORADORES</h2></div>
+        </div>
+        <div class="row text-center">
+                <div class="col-lg-4 d-flex justify-content-center mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/steve.jpg" class="card-img-top" alt="Steve Fucking Jobs">
+                        <div class="card-body">
+                            <h5 class="card-title">Steve Jobs</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste voluptate nesciunt minima consequuntur obcaecati, omnis id cumque voluptatum necessitatibus placeat exercitationem delectus dolores animi? Velit repellat aliquam corporis? Earum, omnis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center mb-5">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./img/bill.jpg" class="card-img-top" alt="Bill Master Gates">
+                    <div class="card-body">
+                    <h5 class="card-title">Bill Gates</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, a. Dolorum eum porro consequatur in eius officiis, quibusdam voluptatum voluptatibus, odio velit maxime dolor aperiam maiores distinctio ducimus nostrum atque?</p>
+                    
+                    </div>
+                </div>
+            </div>
+                <div class="col-lg-4 d-flex justify-content-center mb-5">
+                <div class="card col-lg-4" style="width: 18rem;">
+                    <img src="./img/ada.jpeg" class="card-img-top" alt="Ada">
+                    <div class="card-body">
+                    <h5 class="card-title">Ada Lovelace</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae amet tempore necessitatibus aperiam eveniet molestiae blanditiis pariatur delectus nihil! Ex molestiae perspiciatis ipsam mollitia inventore accusamus cum eius recusandae voluptates?</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="place">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 p-0">
+                    <img class="img-fluid" src="./img/honolulu.jpg" alt="bs as">
+                </div>
+                <div id="place__description" class="col-lg-6 p-4 text-white border-start border-white img-fluid" >
+                    <h3>Bs As Octubre</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum fugit repellendus quasi harum consequuntur, sunt eaque voluptatum, itaque doloribus necessitatibus alias ipsa hic laborum iste incidunt eius soluta quia. Atque.
+                    Quidem assumenda quis sunt delectus. Beatae doloribus vero maxime delectus. Unde hic praesentium doloribus ut asperiores, rem officiis ratione incidunt est?
+                    </p>
+                    <button class="btn btn-outline-light">
+                        Conocé más
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container w-50 pt-4">
+        <div class="row text-center">
+            <div class="col"><h3 class="fs-6">CONVERTITE EN UN</h3></div>
+        </div>
+        <div class="row text-center">
+            <div class="col"><h2>ORADOR</h2></div>
+        </div>
+        <div class="row">
+            <div id="passwordHelpBlock" class="form-text">
+                Anotate como orador para dar una charla ignite. Contanos de qué querés hablar.
+            </div>
+            <div class="col-lg-6 mb-3">
+                <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+                <input type="text" class="form-control w-40" id="name" placeholder="Nombre">
+            </div>
+            <div class="col-lg-6 mb-3">
+            <input type="text" class="form-control w-40" id="lastname" placeholder="Apellido">
+        </div>
+            <div class="col-lg-6 mb-3">
+            <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
+        </div>
+        </div>
+        <div class="row mb-3">
+            <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+            <div class="col-12">
+                <textarea class="form-control" id="subject" rows="6" placeholder="¿Sobre qué quieres exponer?"></textarea>
+            </div>
+            <div id="subjectHelpBlock" class="form-text">
+                Recordá incluir un titulo para tu charla.
+            </div>
+        </div>
+        <div class="row mb-3">
+            <button type="button" class="col-12 btn btn-warning">Enviar</button>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
