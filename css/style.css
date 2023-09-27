@@ -3,41 +3,12 @@
     margin:0;
     box-sizing: border-box;
 }
-
-
-header{
-    /* height: 100vh; */
-}
-.logo{
-    display: flex;
-    flex-direction: row;
-}
-.logo__img{
-    width: 80px;
-}
-
-/* .navbar{
-    position:fixed;
-    top:0;
-    left: 0;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    background-color: #212529;
-    color: white;
-    width:100%;
-    height: 60px;
-    z-index: 1;
-} */
 section{
     padding-top: 80px;
 }
-
 .btn:hover{
     transition: .20s ease-in;
- }
-
+}
 .nav-link:hover{
     transition: .20s ease-in;
     color: white;
@@ -45,49 +16,25 @@ section{
 .navbar__tickets{
     color:#ffc700;
 }
-
 .navbar__tickets:hover{
     color:#f7f12a;
     text-shadow: 1px 0px #face2d;
     transition: .20s ease-in;
 }
-
-.navbar__menu{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    gap: 15px;
-}
-
-.carrousel{
-    padding-top: 60px;
-}
 #place__description{
-    /* max-height: 321px; */
     background-color: #212529;
-  }
-
-.place__img{
-    /* max-width:100%; */
-    /* height: 500px; */
 }
-
 .form-control:focus {
     color: #495057;
     background-color: #fff;
     border-color: #ffc700;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(250, 214, 12, 0.25);
-  }
-
- 
+}
 @media screen and (max-width: 992px) {
     #place__description{
         border: none!important;
     }
-
     .w-50{
         width:100%!important;
     }
