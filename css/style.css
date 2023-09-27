@@ -16,7 +16,7 @@ header{
     width: 80px;
 }
 
-.navbar{
+/* .navbar{
     position:fixed;
     top:0;
     left: 0;
@@ -24,15 +24,32 @@ header{
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    background-color: #292626;
+    background-color: #212529;
     color: white;
     width:100%;
     height: 60px;
     z-index: 1;
+} */
+section{
+    padding-top: 80px;
 }
 
+.btn:hover{
+    transition: .20s ease-in;
+ }
+
+.nav-link:hover{
+    transition: .20s ease-in;
+    color: white;
+}
 .navbar__tickets{
     color:#ffc700;
+}
+
+.navbar__tickets:hover{
+    color:#f7f12a;
+    text-shadow: 1px 0px #face2d;
+    transition: .20s ease-in;
 }
 
 .navbar__menu{
@@ -49,7 +66,7 @@ header{
 }
 #place__description{
     /* max-height: 321px; */
-    background-color: #292626;
+    background-color: #212529;
   }
 
 .place__img{
@@ -64,6 +81,8 @@ header{
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(250, 214, 12, 0.25);
   }
+
+ 
 @media screen and (max-width: 992px) {
     #place__description{
         border: none!important;

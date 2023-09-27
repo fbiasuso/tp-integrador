@@ -9,19 +9,40 @@
 </head>
 <body>
     <header>
-    <nav class="navbar">   
-        <div class="logo">
-            <img class="logo__img" src="./img/codoacodo.png" alt="">
-            <h1 class="logo__title">Conf Bs</h1>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="d-inline-block align-text-center" width="80" src="./img/codoacodo.png" alt=""> Conf Bs As</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark bg-dark" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Conf Bs As</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#speakers">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#place">El lugar y la Fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Conviertete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar__tickets" href="#">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <ul class="navbar__menu">
-            <li>La conferencia</li>
-            <li>Los oradores</li>
-            <li>El lugar y la fecha</li>
-            <li>Conviertete en orador</li>
-            <li class="navbar__tickets">Comprar tickets</li>
-        </ul>
-    </nav>
+        </nav>
     <article class="carrousel">
         <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">
@@ -63,7 +84,7 @@
           </div>
     </article>
     </header>
-    <section id="speakers" class="container pt-4">
+    <section id="speakers" class="container">
         
         <div class="row text-center">
             <div class="col"><h3 class="fs-6">CONOCÉ A LOS</h3></div>
@@ -121,7 +142,7 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="container w-50 pt-4">
+    <section id="contact" class="container w-50">
         <div class="row text-center">
             <div class="col"><h3 class="fs-6">CONVERTITE EN UN</h3></div>
         </div>
