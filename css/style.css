@@ -50,6 +50,19 @@ section{
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(250, 214, 12, 0.25);
 }
+footer{
+    /* background-color: rgb(28,61,80); */
+    background-color: #212529;
+    color: white;
+
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    list-style: none;
+
+}
 @media screen and (max-width: 992px) {
     #place__description{
         border: none!important;
