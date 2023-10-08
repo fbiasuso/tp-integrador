@@ -51,6 +51,10 @@ section {
     bottom: 25%;
 } 
 
+.card{
+    width: 18rem;
+}
+
 #place__description {
     background-color: #212529;
 }
