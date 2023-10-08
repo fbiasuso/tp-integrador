@@ -57,7 +57,41 @@ section {
 
 #place__description {
     background-color: #212529;
+    font-size: 14px;
 }
+
+.img-fluid{
+    height: 100%;
+}
+.text-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.ignite-speak{
+    position:relative;
+    text-decoration: dashed underline;
+}
+
+.tooltiptext {
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+  }
+
+.ignite-speak:hover .tooltiptext{
+    visibility: visible;
+}
+
 
 .form-control:focus {
     color: #495057;
