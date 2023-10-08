@@ -31,9 +31,6 @@ section {
     padding-top: 60px;
 }
 
-/* .carousel-item img{
-    background: rgba(0, 0, 0, 0.35);
-} */
 .carousel-item:before {
     content: ' ';
     display: block;
@@ -155,10 +152,7 @@ footer ul {
         left: 10%;
         right: 10%;
         bottom: 10%;
-        /* line-height: 1; */
-
     }
-
 
     #place__description {
         border: none !important;
