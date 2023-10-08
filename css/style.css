@@ -1,29 +1,36 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-section{
+
+section {
     padding-top: 80px;
 }
-.btn:hover{
+
+.btn:hover {
     transition: .20s ease-in;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     transition: .20s ease-in;
     color: white;
 }
-.navbar__tickets{
-    color:#ffc700;
+
+.navbar__tickets {
+    color: #ffc700;
 }
-.navbar__tickets:hover{
-    color:#f7f12a;
+
+.navbar__tickets:hover {
+    color: #f7f12a;
     text-shadow: 1px 0px #face2d;
     transition: .20s ease-in;
 }
-.carrousel{
+
+.carrousel {
     padding-top: 60px;
 }
+
 /* .carousel-item img{
     background: rgba(0, 0, 0, 0.35);
 } */
@@ -31,18 +38,23 @@ section{
     content: ' ';
     display: block;
     background-color: #212529;
-    opacity: 0.60; 
+    opacity: 0.60;
     width: 100%;
     height: 100%;
     position: absolute;
-  }
-.carousel-caption {
+}
+
+ .carousel-caption {
     text-align: right;
-    bottom: 20%;
-  }
-#place__description{
+    right: 10%;
+    left: 40%;
+    bottom: 25%;
+} 
+
+#place__description {
     background-color: #212529;
 }
+
 .form-control:focus {
     color: #495057;
     background-color: #fff;
@@ -50,25 +62,71 @@ section{
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(250, 214, 12, 0.25);
 }
-footer{
+
+footer {
     /* background-color: rgb(28,61,80); */
     background-color: #212529;
     color: white;
 
 }
-footer ul{
+
+footer ul {
     display: flex;
     flex-direction: row;
     margin-bottom: 0;
     list-style: none;
 
 }
-@media screen and (max-width: 992px) {
-    #place__description{
-        border: none!important;
+
+@media screen and (max-width: 556px) {
+    .carousel {
+        margin-top: 10px;
     }
-    .w-50{
-        width:100%!important;
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 10%;
+    }
+
+    .carousel-caption {
+        font-size: 12px;
+        text-align: center;
+        left: 10%;
+        right: 10%;
+        bottom: 2%;
+        line-height: 1;
+
+    }
+
+    .carousel-caption .btn {
+        font-size: 12px;
+        padding: 3px 6px;
+        line-height: 0.8;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .carousel-caption {
+        text-align: center;
+        left: 10%;
+        right: 10%;
+        bottom: 10%;
+        /* line-height: 1; */
+
+    }
+
+
+    #place__description {
+        border: none !important;
+    }
+
+    .w-50 {
+        width: 100% !important;
     }
 }
-  
