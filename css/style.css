@@ -90,7 +90,7 @@ section {
 }
 
 
-.form-control:focus {
+.form-control:focus, .form-select:focus {
     color: #495057;
     background-color: #fff;
     border-color: #ffc700;
@@ -144,6 +144,45 @@ footer ul {
     }
 
 }
+
+ /*  TICKETS */
+
+.message {
+    /* background-color: rgb(128, 197, 243);
+    border: solid 1px rgb(154, 208, 243);
+    color: rgb(4, 39, 104); */
+    background-color: #212529;
+    border: solid 1px #495057;
+    color: white;
+    border-radius: 5px;
+    
+    padding: 8px 12px;
+    
+}
+
+.col-6.btn.btn-warning{
+    width: 48%;
+}
+
+.card-discount{
+    background-color: #212529;
+    color:white;
+    border: 1px solid #495057;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+.card-discount:hover{
+    background-color: #ffc700;
+    border: 1px solid #f7f12a;
+    color:#212529;
+    transition: all 0.4s ease-in;
+    scale: 1.2;
+    /* z-index: 9999999; */
+    z-index: 1;
+}
+
 
 @media screen and (max-width: 768px) {
 
