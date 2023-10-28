@@ -155,9 +155,7 @@ footer ul {
     border: solid 1px #495057;
     color: white;
     border-radius: 5px;
-    
     padding: 8px 12px;
-    
 }
 
 .col-6.btn.btn-warning{
@@ -179,7 +177,6 @@ footer ul {
     color:#212529;
     transition: all 0.4s ease-in;
     scale: 1.2;
-    /* z-index: 9999999; */
     z-index: 1;
 }
 
